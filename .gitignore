@@ -1,0 +1,68 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+ENV/
+
+# Python environment and dependency caches
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE / editor settings
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Test / coverage outputs
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs
+*.log
+
+# Local secrets / environment config
+.env
+.env.*
+*.pem
+
+# EasyOCR / model cache
+.EasyOCR/
+.easyocr/
+
+# Uploaded / generated files
+uploads/
+output/
+temp/
+*.tmp
+
+# C extensions / compiled libs
+*.so
+*.dll
+*.dylib
+
+# Misc
+*.bak
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
